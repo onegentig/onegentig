@@ -1,0 +1,19 @@
+{
+     "default": true,
+     "MD003": {
+          "style": "setext_with_atx_closed"
+     },
+     "MD013": {
+          "code_block_line_length": 80,
+          "code_blocks": true,
+          "headers": false,
+          "heading_line_length": 80,
+          "headings": true,
+          "line_length": 80,
+          "stern": false,
+          "strict": false,
+          "tables": false
+     },
+     "MD033": false,
+     "MD041": false
+}
