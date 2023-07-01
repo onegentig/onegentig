@@ -2,7 +2,7 @@
      {
           "id": "profile-banner",
           "alt": "Fox watching other fox on Firefox",
-          "url": "assets/banner.png",
+          "url": "assets/images/banner.png",
           "options": {
                "align": "right",
                "width": "35%"
@@ -11,7 +11,7 @@
      {
           "id": "profile-title",
           "alt": "Onegen written in Roman, Cyrillic and Katakana",
-          "url": "assets/title.svg"
+          "url": "assets/images/title.svg"
      },
      {
           "id": "badge-editor-vscode",
@@ -35,7 +35,7 @@
      },
      {
           "id": "badge-os-fedora",
-          "url": "https://img.shields.io/badge/-Fedora_37-%2351a2da?logo=fedora&labelColor=4c566a&style=flat-square"
+          "url": "https://img.shields.io/badge/-Fedora_38-%2351a2da?logo=fedora&labelColor=4c566a&style=flat-square"
      },
      {
           "id": "badge-os-endeavouros",
@@ -48,19 +48,19 @@
      {
           "id": "badge-languages",
           "alt": "Icon mosaic of my favourite and most used languages",
-          "url": "assets/languages.png",
+          "url": "assets/images/languages.png",
           "options": {
                "width": "62%"
           }
      },
      {
           "id": "divider",
-          "url": "assets/divider.gif"
+          "url": "assets/images/divider.gif"
      },
      {
           "id": "education",
           "alt": "Onegen's reached education",
-          "url": "assets/education.png",
+          "url": "assets/images/education.png",
           "options": {
                "align": "right",
                "width": "42%"

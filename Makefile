@@ -1,8 +1,8 @@
-EXE := README.ts
+EXE := src/README.ts
 OUT := README.md
 
 RAW_DIR := assets/raw
-IMG_DIR := assets
+IMG_DIR := assets/images
 
 LANGS_IMG_LIST := $(RAW_DIR)/.langlist
 LANGS_IMG := $(IMG_DIR)/languages.png

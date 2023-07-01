@@ -11,7 +11,7 @@ import {
      ExportFormat,
      HeadingStyle,
      KramdownBuilder,
-} from '../../private/kramdown-deno/mod.ts';
+} from '../../../private/kramdown-deno/mod.ts';
 //} from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.3/mod.ts';
 
 /** The document builder */
@@ -21,14 +21,18 @@ const builder = new KramdownBuilder({
 
 /* === Register references === */
 
-const imageRefs = JSON.parse(await Deno.readTextFile('images.json')) as Array<{
+const imageRefs = JSON.parse(
+     await Deno.readTextFile('./data/images.json')
+) as Array<{
      id: string;
      url: string;
      alt?: string;
      options?: Record<string, string>;
 }>;
 
-const linkRefs = JSON.parse(await Deno.readTextFile('links.json')) as Array<{
+const linkRefs = JSON.parse(
+     await Deno.readTextFile('./data/links.json')
+) as Array<{
      id: string;
      url: string;
      title?: string;
@@ -37,6 +41,9 @@ const linkRefs = JSON.parse(await Deno.readTextFile('links.json')) as Array<{
 for (const ref of imageRefs)
      builder.registerRefImage(ref.id, ref.url, ref.alt, ref.options);
 for (const ref of linkRefs) builder.registerRefLink(ref.id, ref.url, ref.title);
+console.error(
+     `builder: Registered ${imageRefs.length} images and ${linkRefs.length} links.`
+);
 
 /* === Top section === */
 
@@ -46,7 +53,7 @@ const intro = builder
      .addRefImageLinkRef('profile-title', 'profile-link')
      .addParagraph((par) =>
           par
-               .addText("Hey-o, I'm")
+               .addText('Hey-o, I’m')
                .addText('Nick')
                .bold()
                .addText('Onegen')
@@ -68,6 +75,10 @@ const intro = builder
      )
      .addRefImage('badge-languages');
 
-builder.addDiv(intro, { align: 'center' });
+console.error(`builder: Intro section complete with ${intro.nodeCount()} nodes.`);
+builder.addDiv(intro, { align: 'center' }).addRefImage('divider');
 
 writeAllSync(Deno.stdout, builder.build(ExportFormat.GFM));
+console.error(
+     `builder: Finished! Builder had ${builder.nodeCount()} top-level nodes.`
+);
