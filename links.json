@@ -1,0 +1,47 @@
+[
+     {
+          "id": "profile-link",
+          "title": "Onegen",
+          "url": "https://github.com/nickonegen"
+     },
+     {
+          "id": "vscode",
+          "title": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/"
+     },
+     {
+          "id": "nvim",
+          "title": "Neovim",
+          "url": "https://neovim.io/"
+     },
+     {
+          "id": "vs",
+          "title": "Visual Studio",
+          "url": "https://visualstudio.microsoft.com/"
+     },
+     {
+          "id": "arduino",
+          "title": "Arduino",
+          "url": "https://www.arduino.cc/"
+     },
+     {
+          "id": "fedora",
+          "title": "Fedora",
+          "url": "https://getfedora.org/en/workstation/"
+     },
+     {
+          "id": "endeavouros",
+          "title": "EndeavourOS",
+          "url": "https://endeavouros.com/"
+     },
+     {
+          "id": "windows",
+          "title": "Windows 10",
+          "url": "https://web.archive.org/web/20150801210403/http://www.microsoft.com/en-us/windows"
+     },
+     {
+          "id": "discord",
+          "title": "@onegen on Discord",
+          "url": "https://discord.com/users/258681302960701450"
+     }
+]

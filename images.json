@@ -1,0 +1,78 @@
+[
+     {
+          "id": "profile-banner",
+          "alt": "Fox watching other fox on Firefox",
+          "url": "assets/banner.png",
+          "options": {
+               "align": "right",
+               "width": "35%"
+          }
+     },
+     {
+          "id": "profile-title",
+          "alt": "Onegen written in Roman, Cyrillic and Katakana",
+          "url": "assets/title.svg"
+     },
+     {
+          "id": "badge-editor-vscode",
+          "url": "https://img.shields.io/badge/-Visual_Studio_Code-%23007acc?logo=visualstudiocode&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-editor-nvim",
+          "url": "https://img.shields.io/badge/-Neovim-%23019733?logo=neovim&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-editor-vs",
+          "url": "https://img.shields.io/badge/-Visual_Studio-%235c2d91?logo=visualstudio&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-editor-arduino",
+          "url": "https://img.shields.io/badge/-Arduino-%2300979d?logo=arduino&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-editor-vscode",
+          "url": "https://img.shields.io/badge/-Visual_Studio_Code-%23007acc?logo=visualstudiocode&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-os-fedora",
+          "url": "https://img.shields.io/badge/-Fedora_37-%2351a2da?logo=fedora&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-os-endeavouros",
+          "url": "https://img.shields.io/badge/-EndeavourOS-%237f7fff?logo=endeavouros&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-os-windows",
+          "url": "https://img.shields.io/badge/-Windows_10-%230078d6?logo=windows&labelColor=4c566a&style=flat-square"
+     },
+     {
+          "id": "badge-languages",
+          "alt": "Icon mosaic of my favourite and most used languages",
+          "url": "assets/languages.png",
+          "options": {
+               "width": "62%"
+          }
+     },
+     {
+          "id": "divider",
+          "url": "assets/divider.gif"
+     },
+     {
+          "id": "education",
+          "alt": "Onegen's reached education",
+          "url": "assets/education.png",
+          "options": {
+               "align": "right",
+               "width": "42%"
+          }
+     },
+     {
+          "id": "lanyard",
+          "alt": "@onegen status on Discord (via Lanyard)",
+          "url": "https://lanyard.cnrad.dev/api/258681302960701450?theme=dark&borderRadius=15px&animated=true&idleMessage=%20&hideDiscrim=true&hideStatus=false&hideTimestamp=false&hideBadges=false",
+          "options": {
+               "align": "center",
+               "width": "55%"
+          }
+     }
+]
