@@ -17,9 +17,6 @@ jobs:
         with:
           deno-version: vx.x.x
 
-      - name: Install pandoc
-        run: sudo apt-get install pandoc
-
       - name: Build README.md
         run: make
         env:
