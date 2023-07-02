@@ -6,13 +6,13 @@
  * @date 2023-07-01
  */
 
+import json2md from 'npm:json2md@^2';
 import { writeAllSync } from 'https://deno.land/std@0.192.0/streams/write_all.ts';
 import {
      ExportFormat,
      HeadingStyle,
      KramdownBuilder,
-} from '../../../private/kramdown-deno/mod.ts';
-// } from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.3/mod.ts';
+} from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.4/mod.ts';
 
 /** The document builder */
 const builder = new KramdownBuilder({
@@ -64,8 +64,7 @@ const introBldr = builder
                .addRefImageLinkRef('badge-editor-vscode', 'vscode')
                .addRefImageLinkRef('badge-editor-nvim', 'nvim')
                .addRefImageLinkRef('badge-editor-vs', 'vs')
-               .addRefImageLinkRef('badge-editor-arduino', 'arduino')
-               .br()
+               .addRefImageLinkRef('badge-editor-arduino', 'arduino').br()
                .addRefImageLinkRef('badge-os-fedora', 'fedora')
                .addRefImageLinkRef('badge-os-endeavouros', 'endeavouros')
                .addRefImageLinkRef('badge-os-windows', 'windows'),
@@ -83,13 +82,56 @@ builder.addRefImage('education');
 
 console.error('builder: Fetching profile.yaml');
 const codeblock = Deno.readTextFileSync('./data/profile.yaml');
-
 const codeBldr = builder.createChild().addCode(codeblock, 'yaml');
 
 console.error(
      `builder: Proficiencies section complete with ${codeBldr.nodeCount()} nodes`,
 );
 builder.addDiv(codeBldr, { align: 'left', width: '70%' });
+
+/* === Projects section === */
+
+const projBldr = builder
+     .createChild()
+     .addHeading(2, 'What am I up to?')
+     .addRefImageLinkRef('lanyard', 'discord')
+     .addHeading(3, 'Projects');
+
+const projects = JSON.parse(await Deno.readTextFile('./data/projects.json'));
+const projectsElm = json2md({
+     table: {
+          headers: ['Project', 'Status', 'Languages', 'Description'],
+          rows: projects,
+     },
+});
+
+projBldr.addRaw(projectsElm);
+console.error('builder: Projects table generated.');
+builder.addDiv(projBldr, { align: 'center' });
+console.error(
+     `builder: Projects section complete with ${projBldr.nodeCount()} nodes`,
+);
+
+/* === Stats section === */
+
+const statsBldr = builder
+     .createChild()
+     .addHeading(2, 'Stats')
+     .addParagraph(par =>
+          par
+               .addRefImageLinkRef('stats-graph', 'stats-graph-link').dbr()
+               .addRefImageLinkRef('stats-github', 'stats-github-link')
+               .addRefImageLinkRef('stats-streak', 'stats-streak-link').dbr()
+               .addRefImageLinkRef('stats-wakatime', 'stats-wakatime-link')
+               .addRefImageLinkRef('stats-trophies', 'stats-trophies-link'),
+     );
+
+builder.addDiv(statsBldr, { align: 'center' });
+console.error(
+     `builder: Stats section complete with ${statsBldr.nodeCount()} nodes`,
+);
+
+/* === Build the thing! === */
 
 writeAllSync(Deno.stdout, builder.build(ExportFormat.GFM));
 console.error(

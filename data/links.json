@@ -43,5 +43,35 @@
           "id": "discord",
           "title": "@onegen on Discord",
           "url": "https://discord.com/users/258681302960701450"
+     },
+     {
+          "id": "hexxo",
+          "title": "Hexxo",
+          "url": "https://github.com/nickonegen/hexxo"
+     },
+     {
+          "id": "FIT VUT BIT",
+          "title": "Projects from BCS studies at FIT VUT, Czechia",
+          "url": "https://github.com/nickonegen/VUT-BIT"
+     },
+     {
+          "id": "stats-graph-link",
+          "url": "https://github.com/Ashutosh00710/github-readme-activity-graph"
+     },
+     {
+          "id": "stats-github-link",
+          "url": "https://github.com/anuraghazra/github-readme-stats"
+     },
+     {
+          "id": "stats-streak-link",
+          "url": "https://github.com/DenverCoder1/github-readme-streak-stats"
+     },
+     {
+          "id": "stats-trophies-link",
+          "url": "https://github.com/ryo-ma/github-profile-trophy"
+     },
+     {
+          "id": "stats-wakatime-link",
+          "url": "https://wakatime.com/"
      }
 ]
