@@ -1,0 +1,21 @@
+{
+     "semicolon": true,
+     "space": 5,
+     "rules": {
+          "@typescript-eslint/no-unsafe-call": "off",
+          "@typescript-eslint/object-curly-spacing": [
+               "warn",
+               "always"
+          ],
+          "curly": [
+               "error",
+               "multi"
+          ],
+          "n/file-extension-in-import": [
+               "error",
+               "always"
+          ],
+          "unicorn/no-nested-ternary": "off",
+          "unicorn/prevent-abbreviations": "off"
+     }
+}

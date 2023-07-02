@@ -12,7 +12,7 @@ import {
      HeadingStyle,
      KramdownBuilder,
 } from '../../../private/kramdown-deno/mod.ts';
-//} from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.3/mod.ts';
+// } from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.3/mod.ts';
 
 /** The document builder */
 const builder = new KramdownBuilder({
@@ -22,7 +22,7 @@ const builder = new KramdownBuilder({
 /* === Register references === */
 
 const imageRefs = JSON.parse(
-     await Deno.readTextFile('./data/images.json')
+     await Deno.readTextFile('./data/images.json'),
 ) as Array<{
      id: string;
      url: string;
@@ -31,7 +31,7 @@ const imageRefs = JSON.parse(
 }>;
 
 const linkRefs = JSON.parse(
-     await Deno.readTextFile('./data/links.json')
+     await Deno.readTextFile('./data/links.json'),
 ) as Array<{
      id: string;
      url: string;
@@ -42,27 +42,24 @@ for (const ref of imageRefs)
      builder.registerRefImage(ref.id, ref.url, ref.alt, ref.options);
 for (const ref of linkRefs) builder.registerRefLink(ref.id, ref.url, ref.title);
 console.error(
-     `builder: Registered ${imageRefs.length} images and ${linkRefs.length} links.`
+     `builder: Registered ${imageRefs.length} images and ${linkRefs.length} links`,
 );
 
 /* === Top section === */
 
-const intro = builder
+const introBldr = builder
      .createChild()
      .addRefImageLinkRef('profile-banner', 'profile-link')
      .addRefImageLinkRef('profile-title', 'profile-link')
-     .addParagraph((par) =>
+     .addParagraph(par =>
           par
                .addText('Hey-o, I’m')
-               .addText('Nick')
-               .bold()
-               .addText('Onegen')
-               .bold()
-               .em()
+               .addText('Nick').bold()
+               .addText('Onegen').bold().em()
                .addText(', a dude who likes computers')
-               .addText('and other such things! ^^')
+               .addText('and other such things! ^^'),
      )
-     .addParagraph((par) =>
+     .addParagraph(par =>
           par
                .addRefImageLinkRef('badge-editor-vscode', 'vscode')
                .addRefImageLinkRef('badge-editor-nvim', 'nvim')
@@ -71,14 +68,30 @@ const intro = builder
                .br()
                .addRefImageLinkRef('badge-os-fedora', 'fedora')
                .addRefImageLinkRef('badge-os-endeavouros', 'endeavouros')
-               .addRefImageLinkRef('badge-os-windows', 'windows')
+               .addRefImageLinkRef('badge-os-windows', 'windows'),
      )
      .addRefImage('badge-languages');
 
-console.error(`builder: Intro section complete with ${intro.nodeCount()} nodes.`);
-builder.addDiv(intro, { align: 'center' }).addRefImage('divider');
+console.error(
+     `builder: Intro section complete with ${introBldr.nodeCount()} nodes.`,
+);
+builder.addDiv(introBldr, { align: 'center' }).addRefImage('divider');
+
+/* === Proficiencies section === */
+
+builder.addRefImage('education');
+
+console.error('builder: Fetching profile.yaml');
+const codeblock = Deno.readTextFileSync('./data/profile.yaml');
+
+const codeBldr = builder.createChild().addCode(codeblock, 'yaml');
+
+console.error(
+     `builder: Proficiencies section complete with ${codeBldr.nodeCount()} nodes`,
+);
+builder.addDiv(codeBldr, { align: 'left', width: '70%' });
 
 writeAllSync(Deno.stdout, builder.build(ExportFormat.GFM));
 console.error(
-     `builder: Finished! Builder had ${builder.nodeCount()} top-level nodes.`
+     `builder: Finished! Builder had ${builder.nodeCount()} top-level nodes`,
 );

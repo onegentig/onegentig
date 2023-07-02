@@ -1,0 +1,19 @@
+{
+     "Name": "Nick Onegen",
+     "dob": "2002-02-01",
+     "Kernel": "0.w.0-dev.infj54.foxarch",
+     "IDE": "VS Code 1.18.0-insider, NVIM v0.9.1",
+     "Env": "Fedora 38, GNOME 44, zsh 5.9, tmux, starship",
+     "Stack": {
+          "Core": "    ● C        ● JavaScript  ● C++      ● Rust",
+          "Scripts": " ● Bash     ● Python",
+          "Low": "     ● x86      ● VHDL",
+          "Frontend": "● Hugo     ● Vue         ● Tailwind",
+          "Backend": " ● Express  ● NestJS      ● MongoDB  ● NAPI",
+          "Science": " ● Jupyter  ● MATLAB      ● NumPy    ● SciPy"
+     },
+     "Socials": [
+          "@onegen (Discord)",
+          "@onegen@fosstodon.org (Mastodon)"
+     ]
+}

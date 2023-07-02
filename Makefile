@@ -1,11 +1,14 @@
-EXE := src/README.ts
-OUT := README.md
-
+SRC_DIR := src
+DAT_DIR := data
 RAW_DIR := assets/raw
 IMG_DIR := assets/images
 
+EXE := $(SRC_DIR)/readme.ts
+OUT := README.md
+
 LANGS_IMG_LIST := $(RAW_DIR)/.langlist
 LANGS_IMG := $(IMG_DIR)/languages.png
+CODEBLOCK_SRC := $(SRC_DIR)/codeblock.ts
 
 .PHONY: all img clean
 
@@ -22,6 +25,8 @@ CYAN := \033[96;1m
 
 all:
 	@command -v deno >/dev/null 2>&1 || { echo -e >&2 "🚫 $(RED)Deno runtime missing!$(RST)"; exit 127; }
+	@echo -e "📑 $(CYAN)Rebuilding $(EMPH)profile.yaml$(RST)"
+	./$(CODEBLOCK_SRC)
 	@echo -e "📑 $(CYAN)Rebuilding $(EMPH)README.md$(RST)"
 	./$(EXE) > $(OUT)
 	@echo -e "✅ $(GREEN)All done!$(RST)"

@@ -18,6 +18,31 @@ Hey-o, I&rsquo;m **Nick** ***Onegen***, a dude who likes computers and other suc
 
 ![divider]
 
+<img src="assets/images/education.png" alt="Onegen's reached education" align="right" width="42%" />
+
+<div markdown="1" align="left" width="70%">
+
+```yaml
+Onegen ~ life version 2.02.3
+----------------------------
+Name: Nick Onegen
+Uptime: 21 years, 5 months
+Kernel: 0.w.0-dev.infj54.foxarch
+IDE: VS Code 1.18.0-insider, NVIM v0.9.1
+Env: Fedora 38, GNOME 44, zsh 5.9, tmux, starship
+
+Stack.Core:     ● C        ● JavaScript  ● C++      ● Rust
+Stack.Scripts:  ● Bash     ● Python
+Stack.Low:      ● x86      ● VHDL
+Stack.Frontend: ● Hugo     ● Vue         ● Tailwind
+Stack.Backend:  ● Express  ● NestJS      ● MongoDB  ● NAPI
+Stack.Science:  ● Jupyter  ● MATLAB      ● NumPy    ● SciPy
+
+Socials: @onegen (Discord), @onegen@fosstodon.org (Mastodon)
+```
+
+</div>
+
 <!-- Image References -->
 
 [profile-title]: assets/images/title.svg "Onegen written in Roman, Cyrillic and Katakana"
