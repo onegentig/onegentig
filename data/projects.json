@@ -1,0 +1,14 @@
+[
+     {
+          "Project": "🔒&nbsp;[Hexxo]",
+          "Status": "*work-in-progress*",
+          "Languages": "JavaScript<br>Rust",
+          "Description": "Personal semi–private Discord bot powered by Sapphire/D.JS with music playback, art galleries, stargazing and a medley of random commands"
+     },
+     {
+          "Project": "[FIT VUT BIT] assignments",
+          "Status": "*active*",
+          "Languages": "*many*",
+          "Description": "Assignments from my CompSci Bachelor's degree at FIT VUT Brno."
+     }
+]
