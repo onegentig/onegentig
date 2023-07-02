@@ -1,0 +1,34 @@
+name: Remake images
+permissions: write-all
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "assets/raw/.langlist"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: vx.x.x
+
+      - name: Install ImageMagick
+        run: mfinelli/setup-imagemagick@v2
+
+      - name: Build images
+        run: make img
+        env:
+          DENO_AUTH_TOKENS: ${{ secrets.DENO_AUTH_TOKENS }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "build: 🚀 rebuild images (auto)"
+          create_branch: false
+          disable_globbing: true
+          push_options: "--force"
