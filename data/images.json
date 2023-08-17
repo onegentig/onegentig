@@ -73,7 +73,7 @@
      },
      {
           "id": "stats-graph",
-          "url": "https://github-readme-activity-graph.vercel.app/graph?username=nickonegen&theme=rogue&bg_color=1a1b27&title_color=bf91f3&line=70a5fd&point=70a5fd&color=70a5fd&radius=12&area=true&area_color=70a5fd",
+          "url": "https://github-readme-activity-graph.vercel.app/graph?username=onegentig&theme=rogue&bg_color=1a1b27&title_color=bf91f3&line=70a5fd&point=70a5fd&color=70a5fd&radius=12&area=true&area_color=70a5fd",
           "options": {
                "align": "center",
                "width": "99%"
@@ -81,7 +81,7 @@
      },
      {
           "id": "stats-github",
-          "url": "https://github-readme-stats.vercel.app/api?username=nickonegen&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&disable_animations=false",
+          "url": "https://github-readme-stats.vercel.app/api?username=onegentig&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&disable_animations=false",
           "options": {
                "align": "left",
                "width": "48%"
@@ -89,7 +89,7 @@
      },
      {
           "id": "stats-streak",
-          "url": "https://streak-stats.demolab.com/?user=nickonegen&theme=tokyonight&date_format=d%20F[%20Y]",
+          "url": "https://streak-stats.demolab.com/?user=onegentig&theme=tokyonight&date_format=d%20F[%20Y]",
           "options": {
                "align": "center",
                "width": "48%"
@@ -97,7 +97,7 @@
      },
      {
           "id": "stats-trophies",
-          "url": "https://github-profile-trophy.vercel.app/?username=nickonegen&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true",
+          "url": "https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true",
           "options": {
                "align": "center",
                "width": "32%"

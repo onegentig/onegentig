@@ -12,7 +12,7 @@ import {
      ExportFormat,
      HeadingStyle,
      KramdownBuilder,
-} from 'https://raw.githubusercontent.com/nickonegen/kramdown-deno/v0.0.4/mod.ts';
+} from 'https://raw.githubusercontent.com/onegentig/kramdown-deno/v0.0.4/mod.ts';
 
 /** The document builder */
 const builder = new KramdownBuilder({
@@ -54,8 +54,7 @@ const introBldr = builder
      .addParagraph(par =>
           par
                .addText('Hey-o, I’m')
-               .addText('Nick').bold()
-               .addText('Onegen').bold().em()
+               .addText('Nick Onegen').bold()
                .addText(', a dude who likes computers')
                .addText('and other such things! ^^'),
      )
