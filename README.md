@@ -2,11 +2,11 @@
 
 <div markdown="1" align="center">
 
-<a href="https://github.com/nickonegen" title="Onegen" id="profile-link"><img src="assets/images/banner.png" alt="Fox watching other fox on Firefox" align="right" width="35%" /></a>
+<a href="https://github.com/onegentig" title="Onegen" id="profile-link"><img src="assets/images/banner.png" alt="Fox watching other fox on Firefox" align="right" width="35%" /></a>
 
 [![profile-title]][profile-link]
 
-Hey-o, I&rsquo;m **Nick** ***Onegen***, a dude who likes computers and other such things! ^^
+Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such things! ^^
 
 [![badge-editor-vscode]][vscode] [![badge-editor-nvim]][nvim] [![badge-editor-vs]][vs]
 [![badge-editor-arduino]][arduino] \
@@ -65,15 +65,15 @@ What am I up to?
 Stats
 -----
 
-<a href="https://github.com/Ashutosh00710/github-readme-activity-graph" id="stats-graph-link"><img src="https://github-readme-activity-graph.vercel.app/graph?username=nickonegen&theme=rogue&bg_color=1a1b27&title_color=bf91f3&line=70a5fd&point=70a5fd&color=70a5fd&radius=12&area=true&area_color=70a5fd" align="center" width="99%" /></a>
+<a href="https://github.com/Ashutosh00710/github-readme-activity-graph" id="stats-graph-link"><img src="https://github-readme-activity-graph.vercel.app/graph?username=onegentig&theme=rogue&bg_color=1a1b27&title_color=bf91f3&line=70a5fd&point=70a5fd&color=70a5fd&radius=12&area=true&area_color=70a5fd" align="center" width="99%" /></a>
 \
 \
-<a href="https://github.com/anuraghazra/github-readme-stats" id="stats-github-link"><img src="https://github-readme-stats.vercel.app/api?username=nickonegen&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&disable_animations=false" align="left" width="48%" /></a>
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats" id="stats-streak-link"><img src="https://streak-stats.demolab.com/?user=nickonegen&theme=tokyonight&date_format=d%20F[%20Y]" align="center" width="48%" /></a>
+<a href="https://github.com/anuraghazra/github-readme-stats" id="stats-github-link"><img src="https://github-readme-stats.vercel.app/api?username=onegentig&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&disable_animations=false" align="left" width="48%" /></a>
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats" id="stats-streak-link"><img src="https://streak-stats.demolab.com/?user=onegentig&theme=tokyonight&date_format=d%20F[%20Y]" align="center" width="48%" /></a>
 \
 \
 <a href="https://wakatime.com/" id="stats-wakatime-link"><img src="https://wakatime.com/share/@Onegen/36fd0755-4dc6-4db0-a323-5c7f2ae538f7.png" align="left" width="48%" /></a>
-<a href="https://github.com/ryo-ma/github-profile-trophy" id="stats-trophies-link"><img src="https://github-profile-trophy.vercel.app/?username=nickonegen&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true" align="center" width="32%" /></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy" id="stats-trophies-link"><img src="https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true" align="center" width="32%" /></a>
 
 </div>
 
@@ -91,7 +91,7 @@ Stats
 
 <!-- Link References -->
 
-[profile-link]: https://github.com/nickonegen "Onegen"
+[profile-link]: https://github.com/onegentig "Onegen"
 [vscode]: https://code.visualstudio.com/ "Visual Studio Code"
 [nvim]: https://neovim.io/ "Neovim"
 [vs]: https://visualstudio.microsoft.com/ "Visual Studio"
@@ -100,8 +100,8 @@ Stats
 [endeavouros]: https://endeavouros.com/ "EndeavourOS"
 [windows]: https://web.archive.org/web/20150801210403/http://www.microsoft.com/en-us/windows "Windows 10"
 [discord]: https://discord.com/users/258681302960701450 "@onegen on Discord"
-[hexxo]: https://github.com/nickonegen/hexxo "Hexxo"
-[FIT VUT BIT]: https://github.com/nickonegen/VUT-BIT "Projects from BCS studies at FIT VUT, Czechia"
+[hexxo]: https://github.com/onegentig/hexxo "Hexxo"
+[FIT VUT BIT]: https://github.com/onegentig/VUT-BIT "Projects from BCS studies at FIT VUT, Czechia"
 [stats-graph-link]: https://github.com/Ashutosh00710/github-readme-activity-graph
 [stats-github-link]: https://github.com/anuraghazra/github-readme-stats
 [stats-streak-link]: https://github.com/DenverCoder1/github-readme-streak-stats
