@@ -28,17 +28,17 @@ Onegen ~ life version 2.02.3
 Name: Nick Onegen
 Uptime: 21 years, 6 months
 Kernel: 0.w.0-dev.infj54.foxarch
-IDE: VS Code 1.18.0-insider, NVIM v0.9.1
+IDE: VS Code 1.82.0-insider
 Env: Fedora 38, GNOME 44, zsh 5.9, tmux, starship
 
-Stack.Core:     ● C        ● JavaScript  ● C++      ● Rust
-Stack.Scripts:  ● Bash     ● Python
-Stack.Low:      ● x86      ● VHDL
-Stack.Frontend: ● Hugo     ● Vue         ● Tailwind
-Stack.Backend:  ● Express  ● NestJS      ● MongoDB  ● NAPI
-Stack.Science:  ● Jupyter  ● MATLAB      ● NumPy    ● SciPy
+Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
+Stack.Scripts: ● Python  ● Bash       
+Stack.Low:     ● x86     ● VHDL       
+Stack.Web:     ● HTML    ● PHP        ● Vue   ● Hugo   
+Stack.Backend: ● Express ● NestJS     ● NAPI  
+Stack.Science: ● Jupyter ● NumPy      ● SciPy ● MATLAB 
 
-Socials: @onegen (Discord), @onegen@fosstodon.org (Mastodon)
+Socials: @onegen (Discord)
 ```
 
 </div>
