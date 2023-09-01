@@ -18,7 +18,7 @@ CODEBLOCK_SRC := $(SRC_DIR)/codeblock.ts
 
 # Data files #
 
-ME_JSON_REMOTE := https://onegen.cyou/me.json
+ME_JSON_REMOTE := https://onegen.dev/me.json
 ME_JSON := $(DAT_DIR)/me.json
 PROFILE_YAML := $(DAT_DIR)/profile.yaml
 LANGS_IMG_LIST := $(RAW_DIR)/.langlist
