@@ -72,7 +72,7 @@ Stats
 <a href="https://github.com/DenverCoder1/github-readme-streak-stats" id="stats-streak-link"><img src="https://streak-stats.demolab.com/?user=onegentig&theme=tokyonight&date_format=d%20F[%20Y]" align="center" width="48%" /></a>
 \
 \
-<a href="https://wakatime.com/" id="stats-wakatime-link"><img src="https://wakatime.com/share/@Onegen/36fd0755-4dc6-4db0-a323-5c7f2ae538f7.png" align="left" width="48%" /></a>
+<a href="https://wakatime.com/" id="stats-wakatime-link"><img src="https://wakatime.com/share/@Onegen/5097f23e-8ce4-4ac7-84a9-e0134c723d77.png" align="left" width="48%" /></a>
 <a href="https://github.com/ryo-ma/github-profile-trophy" id="stats-trophies-link"><img src="https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true" align="center" width="32%" /></a>
 
 </div>
