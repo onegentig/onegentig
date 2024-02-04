@@ -23,13 +23,13 @@ Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such thin
 <div markdown="1" align="left" width="70%">
 
 ```yaml
-Onegen ~ life version 2.02.3
+Onegen ~ life version 2.02.4
 ----------------------------
 Name: Nick Onegen
 Uptime: 21 years, 10 months
 Kernel: 0.w.0-dev.infj54.foxarch
-IDE: VS Code 1.82.0-insider
-Env: Fedora 38, GNOME 44, zsh 5.9, tmux, starship
+IDE: VS Code 1.86.0-insider
+Env: Fedora 38, GNOME 44.7, zsh 5.9, tmux, starship
 
 Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
 Stack.Scripts: ● Python  ● Bash       
