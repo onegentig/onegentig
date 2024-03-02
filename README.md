@@ -26,10 +26,10 @@ Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such thin
 Onegen ~ life version 2.02.4
 ----------------------------
 Name: Nick Onegen
-Uptime: 22 years
+Uptime: 22 years, 1 month
 Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
-Env: Fedora 38, GNOME 44.7, zsh 5.9, tmux, starship
+Env: Fedora 38, GNOME 44.7, nu 0.90.1, starship
 
 Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
 Stack.Scripts: ● Python  ● Bash       
