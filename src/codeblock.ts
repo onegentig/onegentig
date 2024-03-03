@@ -3,11 +3,12 @@
 /* === Imports === */
 
 import { writeAll } from 'https://deno.land/std@0.198.0/streams/write_all.ts';
-import me from '../data/me.json' assert { type: 'json' };
+import me from '../data/me.json' with { type: 'json' };
+import { ProgrammingStackItem as StackItem, SocialAccount } from './me.d.ts';
 
 type StackData = Record<
      string,
-     Array<{ name: string; badge?: number; overview?: boolean }>
+     Array<StackItem>
 >;
 
 /* === Utilities === */
@@ -33,10 +34,10 @@ export function createStack(stack: StackData): string {
           if (categStrArr[i].length > categTitleMaxLen)
                categTitleMaxLen = categStrArr[i].length;
 
-          /* Category filtering */
-          filtStack[categ[i]] = stack[categ[i]].filter(
-               (lang) => lang.overview !== false
-          );
+          /* Stack items are to be sorted by `orderList` property. */
+          filtStack[categ[i]] = stack[categ[i]]
+               .filter((item) => Boolean(item.orderList))
+               .sort((a, b) => a.orderList! - b.orderList!);
 
           /* Category length */
           if (filtStack[categ[i]].length > categMaxLen)
@@ -148,23 +149,25 @@ if (import.meta.main) {
 
      /* Basic info */
      profile += `Name: ${me.name}\n`;
-     profile += `Uptime: ${calculateUptime(me.birthday, me.lastCheckIn)}\n`;
-     profile += `Kernel: ${me.kernel}\n`;
-     profile += `IDE: ${me.ide}\n`;
-     profile += `Env: ${me.env}\n\n`;
+     profile += `Uptime: ${calculateUptime(me.birthdate, me.lastEdit)}\n`;
+     profile += `Kernel: ${me.pc.kernel}\n`;
+     profile += `IDE: ${me.pc.ide}\n`;
+     profile += `Env: ${me.pc.pcEnv}\n\n`;
 
      /* Tech-Stack */
+     // @ts-ignore idk what’s it complaining about
      profile += createStack(me.stack);
 
      /* Socials */
-     profile += '\n\nSocials: ';
      const socials = Array<string>();
      for (let i = 0; i < me.socials.length; i++) {
-          const social = me.socials[i];
-          if (social.shown !== true) continue;
-          socials.push(`${social.tag} (${social.name})`);
+          const social: SocialAccount = me.socials[i];
+          if (social.hidden || social.network === 'GitHub') continue;
+          socials.push(`${social.username} (${social.network})`);
      }
-     profile += socials.join(', ');
+     if (socials.length > 0)
+          profile += '\n\nSocials: ' + socials.join(', ');
+
 
      /* Export */
      const profileOut = new TextEncoder().encode(profile);

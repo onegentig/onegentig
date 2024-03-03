@@ -6,13 +6,13 @@
  * @date 2023-07-01
  */
 
-import json2md from 'npm:json2md@^2';
 import { writeAllSync } from 'https://deno.land/std@0.192.0/streams/write_all.ts';
 import {
      ExportFormat,
      HeadingStyle,
      KramdownBuilder,
 } from 'https://raw.githubusercontent.com/onegentig/kramdown-deno/v0.0.4/mod.ts';
+import json2md from 'npm:json2md@^2';
 
 /** The document builder */
 const builder = new KramdownBuilder({
@@ -134,5 +134,5 @@ console.error(
 
 writeAllSync(Deno.stdout, builder.build(ExportFormat.GFM));
 console.error(
-     `builder: Finished! Builder had ${builder.nodeCount()} top-level nodes`,
+     `builder: Finished! Builder exported ${builder.nodeCount()} top-level nodes`,
 );
