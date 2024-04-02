@@ -25,8 +25,8 @@ Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such thin
 ```yaml
 Onegen ~ life version 2.02.4
 ----------------------------
-Name: Ф. "Nick Onegen" К.
-Uptime: 22 years, 1 month
+Name: Ф. „Nick Onegen“ К.
+Uptime: 22 years, 2 months
 Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
 Env: Fedora 38, GNOME 44.9, nushell 0.90, starship
