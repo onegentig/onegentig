@@ -9,6 +9,6 @@ for section in "${categories[@]}"; do
 done | {
      while read -r orderBadge; do
           read -r name
-          echo "$orderBadge $name.png"
+          echo "$orderBadge $name.svg"
      done | sort -n | cut -d' ' -f2-
 }

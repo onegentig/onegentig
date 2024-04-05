@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="256"
+     height="256"
+     viewBox="0 0 256 256"
+     fill="none">
+     <rect
+          width="256"
+          height="256"
+          rx="60"
+          fill="#FF1432" />
+     <path
+          d="m 40.825064,37.735485 c 24.799161,-0.03279 52.869979,0 80.924436,-0.0164 0.0164,10.135074 0,20.286546 0.0164,30.421621 -28.070815,-0.03279 -56.141633,0 -84.196094,-0.01639 0.01636,-10.135074 0.01636,-20.253749 -0.01636,-30.388822 z"
+          fill="#FFFFFF" />
+     <path
+          d="m 122.46927,68.649098 c 33.27275,0.03279 66.56187,-0.0984 99.83462,0.0656 -0.0164,9.298685 0,18.613767 0,27.928851 -15.96569,0.0984 -31.93137,-0.03279 -47.89706,0.0492 -10.45295,-0.393593 -20.7096,8.642701 -20.59509,19.335371 -0.0164,35.86635 -0.0328,71.7163 0.0164,107.56625 -10.45294,0.16401 -20.90589,0.0328 -31.35883,0.082 0,-51.67576 0.0164,-103.35151 0,-155.027278 z"
+          fill="#FFFFFF" />
+     <metadata>
+          <rdf:RDF
+               xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+               xmlns:dc="http://purl.org/dc/elements/1.1/">
+               <rdf:Description
+                    dc:creator="onegen"
+                    dc:title="VUT"
+                    dc:description="VUT (Brno University of Technology) logo with a rounded border"
+                    dc:source="https://github.com/onegentig/onegentig/blob/main/assets/raw/VUT.svg"
+                    dc:date="2024-04-05"
+                    dc:format="image/svg+xml">
+               </rdf:Description>
+          </rdf:RDF>
+     </metadata>
+</svg>
