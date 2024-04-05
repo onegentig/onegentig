@@ -2,7 +2,7 @@
 
 <div markdown="1" align="center">
 
-<a href="https://github.com/onegentig" title="Onegen" id="profile-link"><img src="assets/images/banner.png" alt="Fox watching other fox on Firefox" align="right" width="35%" /></a>
+<a href="https://github.com/onegentig" title="Onegen" id="profile-link"><img src="assets/images/banner.png" alt="Fox watching other fox on Firefox" align="right" width="38%" /></a>
 
 [![profile-title]][profile-link]
 
@@ -13,7 +13,7 @@ most of the time at least.
 [![badge-editor-arduino]][arduino] \
 [![badge-os-fedora]][fedora] [![badge-os-endeavouros]][endeavouros] [![badge-os-windows]][windows]
 
-<img src="assets/images/languages.png" alt="Icon mosaic of my favourite and most used languages" width="62%" />
+<img src="assets/images/languages.png" alt="Icon mosaic of my favourite and most used languages" width="59%" />
 
 </div>
 
