@@ -5,7 +5,7 @@
           "url": "assets/images/banner.png",
           "options": {
                "align": "right",
-               "width": "35%"
+               "width": "38%"
           }
      },
      {
@@ -46,7 +46,7 @@
           "alt": "Icon mosaic of my favourite and most used languages",
           "url": "assets/images/languages.png",
           "options": {
-               "width": "62%"
+               "width": "59%"
           }
      },
      {
