@@ -53,10 +53,10 @@ const introBldr = builder
      .addRefImageLinkRef('profile-title', 'profile-link')
      .addParagraph(par =>
           par
-               .addText('Hey-o, I’m')
-               .addText('Nick Onegen').bold()
-               .addText(', a dude who likes computers')
-               .addText('and other such things! ^^'),
+               .addText('heyy-a, I’m')
+               .addText('onegen').bold()
+               .addText('. i like computers.').br()
+               .addText('most of the time at least.'),
      )
      .addParagraph(par =>
           par
