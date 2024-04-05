@@ -6,7 +6,8 @@
 
 [![profile-title]][profile-link]
 
-Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such things! ^^
+heyy-a, I&rsquo;m **onegen**. i like computers. \
+most of the time at least.
 
 [![badge-editor-vscode]][vscode] [![badge-editor-nvim]][nvim] [![badge-editor-vs]][vs]
 [![badge-editor-arduino]][arduino] \
@@ -25,11 +26,11 @@ Hey-o, I&rsquo;m **Nick Onegen**, a dude who likes computers and other such thin
 ```yaml
 Onegen ~ life version 2.02.4
 ----------------------------
-Name: Ф. „Nick Onegen“ К.
+Name: „Nick“ Ф. „Onegen“ Х.
 Uptime: 22 years, 2 months
 Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
-Env: Fedora 38, GNOME 44.9, nushell 0.90, starship
+Env: Fedora 39, GNOME 44.9, nushell 0.90, starship
 
 Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
 Stack.Scripts: ● Python  ● Bash       
@@ -84,7 +85,7 @@ Stats
 [badge-editor-nvim]: https://img.shields.io/badge/-Neovim-%23019733?logo=neovim&labelColor=4c566a&style=flat-square
 [badge-editor-vs]: https://img.shields.io/badge/-Visual_Studio-%235c2d91?logo=visualstudio&labelColor=4c566a&style=flat-square
 [badge-editor-arduino]: https://img.shields.io/badge/-Arduino-%2300979d?logo=arduino&labelColor=4c566a&style=flat-square
-[badge-os-fedora]: https://img.shields.io/badge/-Fedora_38-%2351a2da?logo=fedora&labelColor=4c566a&style=flat-square
+[badge-os-fedora]: https://img.shields.io/badge/-Fedora_39-%2351a2da?logo=fedora&labelColor=4c566a&style=flat-square
 [badge-os-endeavouros]: https://img.shields.io/badge/-EndeavourOS-%237f7fff?logo=endeavouros&labelColor=4c566a&style=flat-square
 [badge-os-windows]: https://img.shields.io/badge/-Windows_10-%230078d6?logo=windows&labelColor=4c566a&style=flat-square
 [divider]: assets/images/divider.gif
