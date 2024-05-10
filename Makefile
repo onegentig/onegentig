@@ -13,12 +13,12 @@ RM := rm -f
 
 # Scripts #
 
-LANG_LIST_SRC := $(SRC_DIR)/languages.sh
-CODEBLOCK_SRC := $(SRC_DIR)/codeblock.ts
+LANG_LIST_SRC := $(SRC_DIR)/badgelist.js
+CODEBLOCK_SRC := $(SRC_DIR)/codeblock.js
 
 # Data files #
 
-ME_JSON_REMOTE := https://onegen.dev/me.json
+ME_JSON_REMOTE := https://onegen.dev/me.jsonld
 ME_JSON := $(DAT_DIR)/me.json
 PROFILE_YAML := $(DAT_DIR)/profile.yaml
 LANGS_IMG_LIST := $(RAW_DIR)/.langlist
