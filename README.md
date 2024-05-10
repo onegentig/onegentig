@@ -26,11 +26,11 @@ most of the time at least.
 ```yaml
 Onegen ~ life version 2.02.4
 ----------------------------
-Name: Ф. „Nick“ Х. „Onegen“
+Name: Ф. „Nick“ К.
 Uptime: 22 years, 3 months
 Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
-Env: Fedora 39, GNOME 45.5, nushell 0.90, starship
+Env: Fedora 39, GNOME 45.5, nushell 0.92, starship
 
 Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
 Stack.Scripts: ● Python  ● Bash       
