@@ -27,7 +27,7 @@ most of the time at least.
 Onegen ~ life version 2.02.4
 ----------------------------
 Name: Nurlan „Nick“ K.
-Uptime: 22 years, 4 months
+Uptime: 22 years, 5 months
 Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
 Env: Fedora 39, GNOME 45.5, nushell 0.92, starship
@@ -66,15 +66,12 @@ What am I up to?
 Stats
 -----
 
-<a href="https://github.com/Ashutosh00710/github-readme-activity-graph" id="stats-graph-link"><img src="https://github-readme-activity-graph.vercel.app/graph?username=onegentig&theme=rogue&bg_color=1a1b27&title_color=bf91f3&line=70a5fd&point=70a5fd&color=70a5fd&radius=12&area=true&area_color=70a5fd" align="center" width="99%" /></a>
-\
-\
-<a href="https://github.com/anuraghazra/github-readme-stats" id="stats-github-link"><img src="https://github-readme-stats.vercel.app/api?username=onegentig&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&disable_animations=false" align="left" width="48%" /></a>
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats" id="stats-streak-link"><img src="https://streak-stats.demolab.com/?user=onegentig&theme=tokyonight&date_format=d%20F[%20Y]" align="center" width="48%" /></a>
+<a href="https://github.com/anuraghazra/github-readme-stats" id="stats-github-link"><img src="https://file.onegen.dev/assets/gh-profile/readme-stats.svg" align="left" width="48%" /></a>
+<a href="https://github.com/DenverCoder1/github-readme-streak-stats" id="stats-streak-link"><img src="https://file.onegen.dev/assets/gh-profile/streak-stats.svg" align="center" width="48%" /></a>
 \
 \
 <a href="https://wakatime.com/" id="stats-wakatime-link"><img src="https://wakatime.com/share/@Onegen/5097f23e-8ce4-4ac7-84a9-e0134c723d77.png" align="left" width="48%" /></a>
-<a href="https://github.com/ryo-ma/github-profile-trophy" id="stats-trophies-link"><img src="https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true" align="center" width="32%" /></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy" id="stats-trophies-link"><img src="https://file.onegen.dev/assets/gh-profile/trophy-stats.svg" align="center" width="32%" /></a>
 
 </div>
 
