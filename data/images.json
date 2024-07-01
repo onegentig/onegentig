@@ -88,6 +88,14 @@
           }
      },
      {
+          "id": "stats-github-local",
+          "url": "https://file.onegen.dev/assets/gh-profile/readme-stats.svg",
+          "options": {
+               "align": "left",
+               "width": "48%"
+          }
+     },
+     {
           "id": "stats-streak",
           "url": "https://streak-stats.demolab.com/?user=onegentig&theme=tokyonight&date_format=d%20F[%20Y]",
           "options": {
@@ -96,8 +104,24 @@
           }
      },
      {
+          "id": "stats-streak-local",
+          "url": "https://file.onegen.dev/assets/gh-profile/streak-stats.svg",
+          "options": {
+               "align": "center",
+               "width": "48%"
+          }
+     },
+     {
           "id": "stats-trophies",
-          "url": "https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3&theme=onestar&no-bg=true",
+          "url": "https://github-profile-trophy.vercel.app/?username=onegentig&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C,%3F&column=3&theme=onestar&no-bg=true",
+          "options": {
+               "align": "center",
+               "width": "32%"
+          }
+     },
+     {
+          "id": "stats-trophies-local",
+          "url": "https://file.onegen.dev/assets/gh-profile/trophy-stats.svg",
           "options": {
                "align": "center",
                "width": "32%"

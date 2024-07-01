@@ -118,11 +118,10 @@ const statsBldr = builder
      .addHeading(2, 'Stats')
      .addParagraph(par =>
           par
-               .addRefImageLinkRef('stats-graph', 'stats-graph-link').dbr()
-               .addRefImageLinkRef('stats-github', 'stats-github-link')
-               .addRefImageLinkRef('stats-streak', 'stats-streak-link').dbr()
+               .addRefImageLinkRef('stats-github-local', 'stats-github-link')
+               .addRefImageLinkRef('stats-streak-local', 'stats-streak-link').dbr()
                .addRefImageLinkRef('stats-wakatime', 'stats-wakatime-link')
-               .addRefImageLinkRef('stats-trophies', 'stats-trophies-link'),
+               .addRefImageLinkRef('stats-trophies-local', 'stats-trophies-link'),
      );
 
 builder.addDiv(statsBldr, { align: 'center' });
