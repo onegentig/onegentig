@@ -32,7 +32,7 @@ Kernel: 0.w.0-dev.infj54.foxarch
 IDE: VS Code 1.86.0-insider
 Env: Fedora 39, GNOME 45.5, nushell 0.92, starship
 
-Stack.Core:    ● C       ● JavaScript ● C++   ● Rust   
+Stack.Core:    ● C       ● JavaScript ● C++   
 Stack.Scripts: ● Python  ● Bash       
 Stack.Low:     ● x86     ● VHDL       
 Stack.Web:     ● HTML    ● Svelte     ● PHP   ● React  
