@@ -97,13 +97,25 @@ const projBldr = builder
      .addHeading(3, 'Projects');
 
 const projects = JSON.parse(await Deno.readTextFile('./data/projects.json'));
-const projectsElm = json2md({
+const projects_minor = JSON.parse(await Deno.readTextFile('./data/projects-small.json'));
+let projectsElm: string = json2md({
      table: {
           headers: ['Project', 'Status', 'Languages', 'Description'],
           rows: projects,
      },
 });
 
+if (projects_minor.length > 0) {
+     projectsElm += '\n<details><summary><i>Show minor projects…</i></summary>\n\n';
+     projectsElm += json2md({
+          table: {
+               headers: ['Project', 'Status', 'Languages', 'Description'],
+               rows: projects_minor,
+          },
+     });
+}
+
+projectsElm += '\n</details>';
 projBldr.addRaw(projectsElm);
 console.error('builder: Projects table generated.');
 builder.addDiv(projBldr, { align: 'center' });
