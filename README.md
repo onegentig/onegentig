@@ -1,6 +1,6 @@
 <!-- Generated from README.ts by kramdown-deno -->
 
-<div markdown="1" align="center">
+<div markdown="1" id="intro" align="center">
 
 <a href="https://github.com/onegentig" title="Onegen" id="profile-link"><img src="assets/images/banner.png" alt="Fox watching other fox on Firefox" align="right" width="38%" /></a>
 
@@ -21,16 +21,16 @@ most of the time at least.
 
 <img src="assets/images/education.png" alt="Onegen's reached education" align="right" width="42%" />
 
-<div markdown="1" align="left" width="70%">
+<div markdown="1" id="code" align="left" width="70%">
 
 ```yaml
 Onegen ~ life version 2.02.4
 ----------------------------
-Name: Nurlan „Nick“ K.
-Uptime: 22 years, 5 months
+Name: N. „onegen“ K.
+Uptime: 22 years, 6 months
 Kernel: 0.w.0-dev.infj54.foxarch
-IDE: VS Code 1.86.0-insider
-Env: Fedora 39, GNOME 45.5, nushell 0.92, starship
+IDE: VS Code 1.92.0-insider
+Env: Fedora 39, GNOME 45.8, nushell 0.92, starship
 
 Stack.Core:    ● C       ● JavaScript ● C++   
 Stack.Scripts: ● Python  ● Bash       
@@ -38,30 +38,11 @@ Stack.Low:     ● x86     ● VHDL
 Stack.Web:     ● HTML    ● Svelte     ● PHP   ● React  
 Stack.Backend: ● Express ● NestJS     ● NAPI  
 Stack.Science: ● Jupyter ● NumPy      ● SciPy ● MATLAB 
-
-Socials: @onegen (Discord)
 ```
 
 </div>
 
-<div markdown="1" align="center">
-
-What am I up to?
-----------------
-
-<a href="https://discord.com/users/258681302960701450" title="@onegen on Discord" id="discord"><img src="https://lanyard.cnrad.dev/api/258681302960701450?theme=dark&borderRadius=15px&animated=true&idleMessage=%20&hideDiscrim=true&hideStatus=false&hideTimestamp=false&hideBadges=false" alt="@onegen status on Discord (via Lanyard)" align="center" width="55%" /></a>
-
-### Projects ###
-
-| Project | Status | Languages | Description |
-| ------- | ------ | --------- | ----------- |
-| 🔒&nbsp;[Hexxo] | *work-in-progress* | JavaScript<br>Rust | Personal semi–private Discord bot powered by Sapphire/D.JS with music playback, art galleries, stargazing and a medley of random commands |
-| [FIT VUT BIT] assignments | *active* | *many* | Assignments from my CompSci Bachelor's degree at FIT VUT Brno. |
-
-
-</div>
-
-<div markdown="1" align="center">
+<div markdown="1" id="stats" align="center">
 
 Stats
 -----
@@ -105,3 +86,5 @@ Stats
 [stats-streak-link]: https://github.com/DenverCoder1/github-readme-streak-stats
 [stats-trophies-link]: https://github.com/ryo-ma/github-profile-trophy
 [stats-wakatime-link]: https://wakatime.com/
+[scrobmpree]: https://github.com/onegentig/scrobmpree "scrobmpree"
+[dewiiwad]: https://github.com/onegentig/dewiiwad "deWiiWAD"
