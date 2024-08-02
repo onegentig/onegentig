@@ -73,7 +73,7 @@ const introBldr = builder
 console.error(
      `builder: Intro section complete with ${introBldr.nodeCount()} nodes.`,
 );
-builder.addDiv(introBldr, { align: 'center' }).addRefImage('divider');
+builder.addDiv(introBldr, { id: 'intro', align: 'center' }).addRefImage('divider');
 
 /* === Proficiencies section === */
 
@@ -86,7 +86,7 @@ const codeBldr = builder.createChild().addCode(codeblock, 'yaml');
 console.error(
      `builder: Proficiencies section complete with ${codeBldr.nodeCount()} nodes`,
 );
-builder.addDiv(codeBldr, { align: 'left', width: '70%' });
+builder.addDiv(codeBldr, { id: 'code', align: 'left', width: '70%' });
 
 /* === Projects section === */
 
@@ -118,7 +118,7 @@ if (projects_minor.length > 0) {
 projectsElm += '\n</details>';
 projBldr.addRaw(projectsElm);
 console.error('builder: Projects table generated.');
-builder.addDiv(projBldr, { align: 'center' });
+if (0) builder.addDiv(projBldr, { id: 'projects', align: 'center' });
 console.error(
      `builder: Projects section complete with ${projBldr.nodeCount()} nodes`,
 );
@@ -136,7 +136,7 @@ const statsBldr = builder
                .addRefImageLinkRef('stats-trophies-local', 'stats-trophies-link'),
      );
 
-builder.addDiv(statsBldr, { align: 'center' });
+builder.addDiv(statsBldr, { id: 'stats', align: 'center' });
 console.error(
      `builder: Stats section complete with ${statsBldr.nodeCount()} nodes`,
 );
